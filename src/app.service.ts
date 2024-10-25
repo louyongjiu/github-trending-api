@@ -6,9 +6,7 @@ import { RepoDto, BuiltByDto } from './repo.dto';
 @Injectable()
 export class AppService {
   getHello(): string {
-    return `
-      Welcome to the Github Trending API! Available Routes: GET /trending 
-    `;
+    return `Welcome to the Github Trending API! Available Routes: GET /trending `;
   }
   
 
